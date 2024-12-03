@@ -1,0 +1,20 @@
+body {
+    background-color: #FFC7C2;
+}
+
+.main-text {
+	display: flex;
+	justify-content: center;
+}
+#rectangle {
+    padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+	color: #fff;
+	border-radius: 15px;
+	background-color: #AE7FC1;
+	width: 70%;
+	height: 100px;
+}
