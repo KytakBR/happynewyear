@@ -1,20 +1,33 @@
-body {
-    background-color: #FFC7C2;
-}
-
 .main-text {
-	display: flex;
-	justify-content: center;
-}
-#rectangle {
-    padding-top: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 15px;
-	color: #fff;
-	border-radius: 15px;
-	background-color: #AE7FC1;
-	width: 70%;
-	height: 100px;
+}
+
+.happy-new-year {
+    color: #fff;
+    margin-top: 250px;
+    font-size: 50px;
+}
+	
+.dreams {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.button {
+    filter: drop-shadow(0 0 10px #262626) drop-shadow(0 0 30px #262626) contrast(1.8) brightness(1.8);
+    background-color: #262626;
+    border: solid 3px #fff;
+    width: 450px;
+    height: 80px;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 35px;
+}
+
+.next-btn {
+    margin-top: 260px;
 }

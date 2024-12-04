@@ -1,5 +1,6 @@
 {% load static %}
 
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,9 +10,18 @@
     <link rel="stylesheet" href="{% static 'main/css/index.css' %}">
 </head>
 <body>
-<div>
     {% block content %}
     {% endblock %}
-</div>
 </body>
+<style>
+    body {
+        background: url('static/main/img/fon.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
+
+
 </html>
